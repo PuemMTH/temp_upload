@@ -1,0 +1,16 @@
+{
+  "name": "dis_wanip",
+  "version": "0.0.1",
+  "main": "src/app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/voice": "^0.11.0",
+    "axios": "^1.1.2",
+    "discord.js": "^14.5.0"
+  }
+}
